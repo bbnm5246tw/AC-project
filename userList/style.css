@@ -1,0 +1,65 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  margin-bottom: 0;
+}
+
+#search-form {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+#search-input {
+  margin-right: 18px;
+}
+
+#search-submit-button {
+  background-color: white;
+  color: navy;
+}
+
+.card-img-top {
+  border-radius: 50px;
+  background-color: #a3ab78;
+}
+
+.card.m-3 {
+  border-radius: 25px;
+  border: 5px solid darkgray;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-show-info {
+  margin-bottom: 0.5rem;
+}
+
+.btn-add-favorite {
+  background-color: orange;
+  border: none;
+}
+
+.fa-star {
+  color: #1f3e51;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.btn-add-favorite:hover {
+  background-color: #FF7A48;
+  transition: 1s;
+}
+
+.fav.row.d-flex {
+  position: relative;
+  margin-top: 100px;
+}/*# sourceMappingURL=style.css.map */
